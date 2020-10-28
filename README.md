@@ -18,5 +18,20 @@ say_hi() #oneliner would be too boring
     everyone has their profile in English so i will too
     im just a student with a cat named Fernet
     university stuff will be documented in Español
-    
+</details>
+
+<details>
+<summary><code>me everyday</code></summary>
+<center>
+    <img src="https://media.giphy.com/media/zOvBKUUEERdNm/giphy.gif" />
+    </a>
+</center>
+</details>
+
+<details>
+<summary><code>me on sundays</code></summary>
+<center>
+    <img src="https://media.giphy.com/media/ySpxjJmsq9gsw/giphy.gif" />
+    </a>
+</center>
 </details>
