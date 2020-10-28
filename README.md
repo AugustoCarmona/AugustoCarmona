@@ -8,6 +8,6 @@ def say_hi():
     for h in hi:
       words = h.split()[::-1]
       print(" ".join(words))
-
-    #oneliner would be unreadable
+ 
+ say_hi() #oneliner would be unreadable
 ```
