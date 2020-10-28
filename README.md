@@ -11,3 +11,12 @@ def say_hi():
  
 say_hi() #oneliner would be too boring
 ```
+<details>
+<summary><code>run</code></summary>
+    
+    hi
+    everyone has their profile in English so i will too
+    im just a student with a cat named Fernet
+    university stuff will be documented in Español
+    
+</details>
