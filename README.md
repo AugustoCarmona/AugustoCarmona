@@ -9,5 +9,5 @@ def say_hi():
       words = h.split()[::-1]
       print(" ".join(words))
  
- say_hi() #oneliner would be unreadable
+say_hi() #oneliner would be unreadable
 ```
