@@ -21,7 +21,7 @@ say_hi() #oneliner would be too boring
 </details>
 
 <details>
-<summary><code>me everyday</code></summary>
+<summary><code>me from monday to saturday</code></summary>
 <center>
     <img src="https://media.giphy.com/media/zOvBKUUEERdNm/giphy.gif" />
     </a>
