@@ -1,20 +1,7 @@
 
 ```python
-def say_hi():
-    hi = ["hi",
-        "Fernet named cat a with student a just im"]
-    for h in hi:
-      words = h.split()[::-1]
-      print(" ".join(words))
- 
-say_hi() #oneliner would be too boring
+print("Someday my github account will be interesting. I promise...")
 ```
-<details>
-<summary><code>run</code></summary>
-    
-    hi
-    im just a student with a cat named Fernet
-</details>
 
 <details>
 <summary><code>me from monday to saturday</code></summary>
@@ -31,4 +18,3 @@ say_hi() #oneliner would be too boring
     </a>
 </center>
 </details>
-<!-- hold on the paco old woman, i dont care anything -->
