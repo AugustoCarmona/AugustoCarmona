@@ -1,20 +1,12 @@
-
 ```python
-print("Someday my github account will be interesting. I promise...")
+augusto = {
+    "age": 26,
+    "job": "i work as a python dev at OSDEPYM",
+    "studies": "i study engineering at UADE",
+    "hobbies": "im also a big fan of music"
+}
+print("i work as a python dev at OSDEPYM")
+print("i study engineering at UADE")
+print("i also love music")
 ```
-
-<details>
-<summary><code>me from monday to saturday</code></summary>
-<center>
-    <img src="https://media.giphy.com/media/zOvBKUUEERdNm/giphy.gif" />
-    </a>
-</center>
-</details>
-
-<details>
-<summary><code>me on sundays</code></summary>
-<center>
-    <img src="https://media.giphy.com/media/ySpxjJmsq9gsw/giphy.gif" />
-    </a>
-</center>
-</details>
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=augustocarmona)](https://github.com/anuraghazra/github-readme-stats) <img  src="https://media.giphy.com/media/MT5UUV1d4CXE2A37Dg/giphy.gif" width="194">
