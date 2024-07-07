@@ -3,7 +3,7 @@ class DeveloperProfile:
     def __init__(self):
         self.name = "Augusto"
         self.age = 26
-        self.job = "python dev at OSDEPYM"
+        self.job = "python dev"
         self.studies = "engineering at UADE"
         self.hobbies = ["music"]
     
