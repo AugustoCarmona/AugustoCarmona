@@ -13,3 +13,5 @@ class DeveloperProfile:
 augusto = DeveloperProfile()
 print(augusto.introduce_myself())
 ```
+
+![image](https://media.licdn.com/dms/image/D4D16AQEM25E1pn1WOw/profile-displaybackgroundimage-shrink_350_1400/0/1719352356660?e=1726099200&v=beta&t=POoUziStjCXF1KkFvicitjIL6lk3dscj3OAeoZx9F3I)
