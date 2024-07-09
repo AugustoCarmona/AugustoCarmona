@@ -1,17 +1,3 @@
-```python
-class DeveloperProfile:
-    def __init__(self):
-        self.name = "Augusto"
-        self.age = 26
-        self.job = "python dev"
-        self.studies = "engineering at UADE"
-        self.hobbies = ["music"]
-    
-    def introduce_myself(self):
-        return f"👋 Hi! I'm {self.name}, {self.job}. I study {self.studies} and I love {self.hobbies[0]}."
+### ¡Hola, soy Augusto! 👋
 
-augusto = DeveloperProfile()
-print(augusto.introduce_myself())
-```
-
-![image](https://media.licdn.com/dms/image/D4D16AQEM25E1pn1WOw/profile-displaybackgroundimage-shrink_350_1400/0/1719352356660?e=1726099200&v=beta&t=POoUziStjCXF1KkFvicitjIL6lk3dscj3OAeoZx9F3I)
+Soy Python Developer y Data Engineer apasionado por la automatización y la inteligencia artificial. En mi día a día, trabajo con Python y SQL para crear soluciones escalables en el campo de la ingeniería de datos.
