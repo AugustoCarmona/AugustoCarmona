@@ -1,53 +1,49 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.4">
   <diagram name="Página-1" id="W8_GP7UOTws-HAbCmVQn">
-    <mxGraphModel dx="2514" dy="2037" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4924" dy="3278" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-1" target="ivZ9lT4VuPYU5OSlLf_5-6">
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-1" target="ivZ9lT4VuPYU5OSlLf_5-138">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ivZ9lT4VuPYU5OSlLf_5-1" value="Obtener Banco&lt;div&gt;(desde bbva&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="400" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-2" target="ivZ9lT4VuPYU5OSlLf_5-5">
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-2" target="ivZ9lT4VuPYU5OSlLf_5-135">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ivZ9lT4VuPYU5OSlLf_5-2" value="Obtener Comercio&lt;div&gt;(desde comercio)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="160" width="120" height="60" as="geometry" />
+          <mxGeometry x="100" y="100" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-3" target="ivZ9lT4VuPYU5OSlLf_5-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-3" target="ivZ9lT4VuPYU5OSlLf_5-5">
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-3" target="ivZ9lT4VuPYU5OSlLf_5-136">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ivZ9lT4VuPYU5OSlLf_5-3" value="Obtener Tarjeta&lt;div&gt;(desde tarjeta)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-4" target="ivZ9lT4VuPYU5OSlLf_5-6">
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-4" target="ivZ9lT4VuPYU5OSlLf_5-137">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ivZ9lT4VuPYU5OSlLf_5-4" value="Obtener Gastos de Tarjeta&lt;div&gt;(desde servicios tarjeta)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-5" target="ivZ9lT4VuPYU5OSlLf_5-34">
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-5" target="ivZ9lT4VuPYU5OSlLf_5-34">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="680" y="130" />
-              <mxPoint x="680" y="-35" />
-              <mxPoint x="1010" y="-35" />
+              <mxPoint x="530" y="-525" />
+              <mxPoint x="890" y="-525" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="ivZ9lT4VuPYU5OSlLf_5-5" value="Payway Vs Comercio" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="413" y="100" width="180" height="60" as="geometry" />
+          <mxGeometry x="500" y="100" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ivZ9lT4VuPYU5OSlLf_5-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-6" target="ivZ9lT4VuPYU5OSlLf_5-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ivZ9lT4VuPYU5OSlLf_5-6" value="Payway Vs Banco" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="324" y="350" width="180" height="60" as="geometry" />
+          <mxGeometry x="500" y="360" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ivZ9lT4VuPYU5OSlLf_5-22" value="&lt;div&gt;Variables Globales:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;FECHA_DESDE&lt;/li&gt;&lt;li&gt;FECHA_HASTA&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="-240" y="490" width="150" height="70" as="geometry" />
@@ -80,7 +76,7 @@
           <mxGeometry x="-240" y="380" width="150" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ivZ9lT4VuPYU5OSlLf_5-38" value="" style="group;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="710" y="-15" width="600" height="290" as="geometry" />
+          <mxGeometry x="590" y="-505" width="600" height="290" as="geometry" />
         </mxCell>
         <mxCell id="ivZ9lT4VuPYU5OSlLf_5-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ivZ9lT4VuPYU5OSlLf_5-38" source="ivZ9lT4VuPYU5OSlLf_5-34">
           <mxGeometry relative="1" as="geometry">
@@ -121,7 +117,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ivZ9lT4VuPYU5OSlLf_5-45" value="r_pay_vs_com" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="1450" y="90" width="100" height="80" as="geometry" />
+          <mxGeometry x="1330" y="-400" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ivZ9lT4VuPYU5OSlLf_5-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-46" target="ivZ9lT4VuPYU5OSlLf_5-52">
           <mxGeometry relative="1" as="geometry" />
@@ -138,26 +134,29 @@
         <mxCell id="ivZ9lT4VuPYU5OSlLf_5-49" value="Presenta Diferencias?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1689" y="735" width="162" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-52" target="ivZ9lT4VuPYU5OSlLf_5-67">
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-52" target="ivZ9lT4VuPYU5OSlLf_5-121">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ivZ9lT4VuPYU5OSlLf_5-52" value="Cargar Payway Banco" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="1920" y="570" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-53" target="ivZ9lT4VuPYU5OSlLf_5-64">
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-53" target="ivZ9lT4VuPYU5OSlLf_5-123">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ivZ9lT4VuPYU5OSlLf_5-53" value="Cargar Payway Comercio" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="1665" y="90" width="210" height="80" as="geometry" />
+          <mxGeometry x="1545" y="-400" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-154" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-54" target="ivZ9lT4VuPYU5OSlLf_5-150">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ivZ9lT4VuPYU5OSlLf_5-54" value="Presenta Diferencias?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1680" y="280" width="180" height="140" as="geometry" />
+          <mxGeometry x="1560" y="-210" width="180" height="140" as="geometry" />
         </mxCell>
         <mxCell id="ivZ9lT4VuPYU5OSlLf_5-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-55" target="ivZ9lT4VuPYU5OSlLf_5-54">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ivZ9lT4VuPYU5OSlLf_5-55" value="c_pay_vs_com" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="1450" y="310" width="100" height="80" as="geometry" />
+          <mxGeometry x="1330" y="-180" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ivZ9lT4VuPYU5OSlLf_5-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-36" target="ivZ9lT4VuPYU5OSlLf_5-55">
           <mxGeometry relative="1" as="geometry" />
@@ -165,8 +164,8 @@
         <mxCell id="ivZ9lT4VuPYU5OSlLf_5-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-54" target="ivZ9lT4VuPYU5OSlLf_5-45">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1770" y="240" />
-              <mxPoint x="1500" y="240" />
+              <mxPoint x="1650" y="-250" />
+              <mxPoint x="1380" y="-250" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -176,16 +175,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ivZ9lT4VuPYU5OSlLf_5-63" value="La tabla r_pay_vs_com contiene todos los registros de payway correspondientes a movimientos de comercio (que fueron validados al no existir diferencias" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="1530" y="-60" width="280" height="120" as="geometry" />
+          <mxGeometry x="1410" y="-550" width="280" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-64" value="CA OBT" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
-          <mxGeometry x="2000" y="90" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-66" value="La tabla r_pay_vs_ban contiene todos los registros de payway correspondientes a movimientos de comercio (que fueron validados al no existir diferencias" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-66" value="La tabla r_pay_vs_ban contiene todos los registros de payway correspondientes a movimientos de banco (que fueron validados al no existir diferencias" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
           <mxGeometry x="1900" y="440" width="280" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-67" value="CA OBT" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
-          <mxGeometry x="2260" y="560" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ivZ9lT4VuPYU5OSlLf_5-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-71" target="ivZ9lT4VuPYU5OSlLf_5-49">
           <mxGeometry relative="1" as="geometry" />
@@ -209,8 +202,195 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-85" target="ivZ9lT4VuPYU5OSlLf_5-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ivZ9lT4VuPYU5OSlLf_5-85" value="Crear Reporte MP (API)&lt;div&gt;Parámetros de ingreso:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;FECHA_DESDE&lt;/li&gt;&lt;li&gt;FECHA_HASTA&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="585" width="170" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-87" target="ivZ9lT4VuPYU5OSlLf_5-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-87" value="Mercado Pago Vs Comercio" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="67.5" y="840" width="235" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-89" value="" style="group;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-115" y="950" width="600" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ivZ9lT4VuPYU5OSlLf_5-89" source="ivZ9lT4VuPYU5OSlLf_5-91">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-91" value="Para Comercio tomar los registros cuya fecha de devengado esté comprendida entre las variables FECHA_DESDE y FECHA_HASTA.&lt;br&gt;&lt;br&gt;Consideran únicamente los registros cuya forma de pago sea mercado pago" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ivZ9lT4VuPYU5OSlLf_5-89">
+          <mxGeometry x="155" width="290" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ivZ9lT4VuPYU5OSlLf_5-89" source="ivZ9lT4VuPYU5OSlLf_5-93" target="ivZ9lT4VuPYU5OSlLf_5-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-93" value="Una vez filtrados ambos resúmenes, estos se deben conbinar habiendo previamente sumarizado Mercado Pago y Comercio en su monto bruto, agrupado por fecha de devengado&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ivZ9lT4VuPYU5OSlLf_5-89">
+          <mxGeometry x="115" y="130" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-94" value="Para la obtención de diferencias se crea una nueva columna en la tabla de staging llamada &quot;Diferencia&quot; que comparará los respectivos montos burtos de mercado pago menos los de comercio.&lt;div&gt;El Dataframe resultante se retornará como tabla de staging (falta filtrar registros con diferencia distinta de 0)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ivZ9lT4VuPYU5OSlLf_5-89">
+          <mxGeometry y="220" width="600" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-95" target="ivZ9lT4VuPYU5OSlLf_5-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-95" value="Esperar 10 minutos y tomar último reporte generado." style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-100" target="ivZ9lT4VuPYU5OSlLf_5-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-100" value="r_mp_vs_com" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1300" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-102" target="ivZ9lT4VuPYU5OSlLf_5-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-102" value="Cargar Payway Comercio" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1300" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-104" target="ivZ9lT4VuPYU5OSlLf_5-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-104" value="c_pay_vs_com" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1520" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-107" target="ivZ9lT4VuPYU5OSlLf_5-128">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-107" value="CA OBT&lt;div&gt;Parámetro de ingreso:&lt;/div&gt;&lt;div&gt;r_mp_vs_com&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="1071" y="1300" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-94" target="ivZ9lT4VuPYU5OSlLf_5-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-94" target="ivZ9lT4VuPYU5OSlLf_5-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-110" value="Presenta Diferencias" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1495" width="170" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-110" target="ivZ9lT4VuPYU5OSlLf_5-100">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="535" y="1450" />
+              <mxPoint x="320" y="1450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-114" value="La tabla r_mp_vs_com contiene todos los registros de mercado pago correspondientes a movimientos de comercio (que fueron validados al no existir diferencias)" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1169" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-115" target="ivZ9lT4VuPYU5OSlLf_5-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-115" value="Truncar CA OBT&lt;div&gt;&lt;div&gt;Parámetros de ingreso:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;FECHA_DESDE&lt;/li&gt;&lt;li&gt;FECHA_HASTA&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="1295" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-120" target="ivZ9lT4VuPYU5OSlLf_5-131">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-120" value="CA OBT&lt;div&gt;Parámetro de ingreso:&lt;/div&gt;&lt;div&gt;r_mp_vs_com&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="2430" y="560" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-121" target="ivZ9lT4VuPYU5OSlLf_5-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-121" value="Truncar CA OBT&lt;div&gt;&lt;div&gt;Parámetros de ingreso:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;FECHA_DESDE&lt;/li&gt;&lt;li&gt;FECHA_HASTA&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="2210" y="555" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-122" target="ivZ9lT4VuPYU5OSlLf_5-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-122" value="CA OBT&lt;div&gt;Parámetro de ingreso:&lt;/div&gt;&lt;div&gt;r_pay_vs_com&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="2080" y="-400" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-123" target="ivZ9lT4VuPYU5OSlLf_5-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-123" value="Truncar CA OBT&lt;div&gt;&lt;div&gt;Parámetros de ingreso:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;FECHA_DESDE&lt;/li&gt;&lt;li&gt;FECHA_HASTA&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="-405" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-128" value="Fin" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="1310" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-131" value="Fin" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
+          <mxGeometry x="2650" y="570" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-132" value="Fin" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
+          <mxGeometry x="2310" y="-390" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-135" target="ivZ9lT4VuPYU5OSlLf_5-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-135" value="Truncar Comercio por fecha" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-136" target="ivZ9lT4VuPYU5OSlLf_5-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-136" target="ivZ9lT4VuPYU5OSlLf_5-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-136" value="Truncar Tarjeta por fecha" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-137" target="ivZ9lT4VuPYU5OSlLf_5-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-137" value="Truncar Gastos Tarjeta por fecha" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-138" target="ivZ9lT4VuPYU5OSlLf_5-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-138" value="Truncar Banco por fecha" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-150" target="ivZ9lT4VuPYU5OSlLf_5-152">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-150" value="Desagrupar comercio por forma de pago y payway por marca." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1564.5" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-151" value="Si payway por VISA DEBITO es distinto de comercio por (DV) Truncar r_pay_vs_com por marca igual a VISA DEBITO" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="2050" y="-110" width="580" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-152" value="Comparar montos desagrupados" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1815.5" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-163" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-155" target="ivZ9lT4VuPYU5OSlLf_5-151">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-155" value="Si payway por VISA es distinto de comercio por (CV1 + CV3) Truncar r_pay_vs_com por marca igual a VISA" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="2050" y="10" width="580" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-162" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-158" target="ivZ9lT4VuPYU5OSlLf_5-155">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-158" value="Si payway por MASTER es distinto de comercio por (master) Truncar r_pay_vs_com por marca igual a MASTER" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="2050" y="140" width="580" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.534;entryY=0.992;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-152" target="ivZ9lT4VuPYU5OSlLf_5-158">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2013" y="35" />
+              <mxPoint x="2013" y="290" />
+              <mxPoint x="2360" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-167" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-164" target="ivZ9lT4VuPYU5OSlLf_5-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-164" value="CA OBT&lt;div&gt;Parámetro de ingreso:&lt;/div&gt;&lt;div&gt;r_pay_vs_com&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="2255" y="-250" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-166" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.498;entryY=0.825;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-151" target="ivZ9lT4VuPYU5OSlLf_5-164">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
