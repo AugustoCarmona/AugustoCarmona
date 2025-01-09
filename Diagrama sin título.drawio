@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.4">
   <diagram name="Página-1" id="W8_GP7UOTws-HAbCmVQn">
-    <mxGraphModel dx="4924" dy="3278" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3217" dy="2399" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -18,6 +18,11 @@
         </mxCell>
         <mxCell id="ivZ9lT4VuPYU5OSlLf_5-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-3" target="ivZ9lT4VuPYU5OSlLf_5-136">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-172" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="-200" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ivZ9lT4VuPYU5OSlLf_5-3" value="Obtener Tarjeta&lt;div&gt;(desde tarjeta)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="240" width="120" height="60" as="geometry" />
@@ -83,16 +88,16 @@
             <mxPoint x="300" y="125" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-34" value="Para Payway y Comercio tomar los registros cuya fecha de devengado esté comprendida entre las variables FECHA_DESDE y FECHA_HASTA.&lt;br&gt;&lt;br&gt;En comercio no se consideran registros cuya forma de pago sea efectivo o mercado pago" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ivZ9lT4VuPYU5OSlLf_5-38">
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-34" value="En comercio no se consideran registros cuya forma de pago sea efectivo o mercado pago" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ivZ9lT4VuPYU5OSlLf_5-38">
           <mxGeometry x="155" width="290" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ivZ9lT4VuPYU5OSlLf_5-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ivZ9lT4VuPYU5OSlLf_5-38" source="ivZ9lT4VuPYU5OSlLf_5-35" target="ivZ9lT4VuPYU5OSlLf_5-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-35" value="Una vez filtrados ambos resúmenes, estos se deben conbinar habiendo previamente sumarizado Payway y Comercio en su monto bruto, habiendo sumarizado por fecha de devengado&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ivZ9lT4VuPYU5OSlLf_5-38">
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-35" value="Una vez filtrados ambos resúmenes, estos se deben combinar habiendo previamente sumarizado Payway y Comercio en su monto bruto, agrupado por fecha de devengado&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ivZ9lT4VuPYU5OSlLf_5-38">
           <mxGeometry x="115" y="130" width="370" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-36" value="Para la obtención de diferencias se crea una nueva columna en la tabla de staging llamada &quot;Diferencia&quot; que comparará los respectivos montos burtos de payway menos los de comercio.&lt;div&gt;El Dataframe resultante se retornará como tabla de staging (falta filtrar registros con diferencia distinta de 0)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ivZ9lT4VuPYU5OSlLf_5-38">
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-36" value="Para la obtención de diferencias se crea una nueva columna en la tabla de staging llamada &quot;Diferencia&quot; que comparará los respectivos montos burtos de payway menos los de comercio.&lt;div&gt;El Dataframe resultante se retornará como tabla de staging&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ivZ9lT4VuPYU5OSlLf_5-38">
           <mxGeometry y="220" width="600" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ivZ9lT4VuPYU5OSlLf_5-43" value="" style="group;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" connectable="0" parent="1">
@@ -113,7 +118,7 @@
         <mxCell id="ivZ9lT4VuPYU5OSlLf_5-42" value="Se sumariza ingresos payway, egresos payway e ingresos prisma/cabal en la columna monto bruto, sumarizando por fecha de percibido.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Posteriormente se combinan las tablas sumarizado_dia_ingresos_pw,&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;sumarizado_dia_egresos_pw e ingresos_prisma_cabal, se crea una columna de diferencia haciendo una comparativa entre las columnas resultantes del cálculo anterior (ingresos_payway_monto_bruto -&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;egresos_payway_monto_bruto, banco_importe_ingresos&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;El dataframe resultante se tomará como tabla de staging (falta filtrar registros con diferencia distinta de 0)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ivZ9lT4VuPYU5OSlLf_5-43">
           <mxGeometry y="180" width="530" height="165" as="geometry" />
         </mxCell>
-        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-45" target="ivZ9lT4VuPYU5OSlLf_5-53">
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-170" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-45" target="ivZ9lT4VuPYU5OSlLf_5-168">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ivZ9lT4VuPYU5OSlLf_5-45" value="r_pay_vs_com" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
@@ -144,7 +149,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ivZ9lT4VuPYU5OSlLf_5-53" value="Cargar Payway Comercio" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="1545" y="-400" width="210" height="80" as="geometry" />
+          <mxGeometry x="2195" y="-800" width="210" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ivZ9lT4VuPYU5OSlLf_5-154" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-54" target="ivZ9lT4VuPYU5OSlLf_5-150">
           <mxGeometry relative="1" as="geometry" />
@@ -174,8 +179,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-63" value="La tabla r_pay_vs_com contiene todos los registros de payway correspondientes a movimientos de comercio (que fueron validados al no existir diferencias" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="1410" y="-550" width="280" height="120" as="geometry" />
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-63" value="La tabla r_pay_vs_com contiene todos los registros de payway correspondientes a movimientos de comercio (que fueron validados al no existir diferencias)" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="-540" width="280" height="120" as="geometry" />
         </mxCell>
         <mxCell id="ivZ9lT4VuPYU5OSlLf_5-66" value="La tabla r_pay_vs_ban contiene todos los registros de payway correspondientes a movimientos de banco (que fueron validados al no existir diferencias" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
           <mxGeometry x="1900" y="440" width="280" height="120" as="geometry" />
@@ -306,13 +311,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ivZ9lT4VuPYU5OSlLf_5-122" value="CA OBT&lt;div&gt;Parámetro de ingreso:&lt;/div&gt;&lt;div&gt;r_pay_vs_com&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
-          <mxGeometry x="2080" y="-400" width="170" height="80" as="geometry" />
+          <mxGeometry x="2260" y="-520" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ivZ9lT4VuPYU5OSlLf_5-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-123" target="ivZ9lT4VuPYU5OSlLf_5-122">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ivZ9lT4VuPYU5OSlLf_5-123" value="Truncar CA OBT&lt;div&gt;&lt;div&gt;Parámetros de ingreso:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;FECHA_DESDE&lt;/li&gt;&lt;li&gt;FECHA_HASTA&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="1840" y="-405" width="180" height="90" as="geometry" />
+          <mxGeometry x="2255" y="-660" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ivZ9lT4VuPYU5OSlLf_5-128" value="Fin" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
           <mxGeometry x="1340" y="1310" width="60" height="60" as="geometry" />
@@ -375,13 +380,7 @@
           <mxGeometry x="2050" y="140" width="580" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ivZ9lT4VuPYU5OSlLf_5-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.534;entryY=0.992;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-152" target="ivZ9lT4VuPYU5OSlLf_5-158">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="2013" y="35" />
-              <mxPoint x="2013" y="290" />
-              <mxPoint x="2360" y="290" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ivZ9lT4VuPYU5OSlLf_5-167" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-164" target="ivZ9lT4VuPYU5OSlLf_5-132">
           <mxGeometry relative="1" as="geometry" />
@@ -391,6 +390,12 @@
         </mxCell>
         <mxCell id="ivZ9lT4VuPYU5OSlLf_5-166" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.498;entryY=0.825;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ivZ9lT4VuPYU5OSlLf_5-151" target="ivZ9lT4VuPYU5OSlLf_5-164">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-168" value="Desagrupar comercio por forma de pago y payway por marca." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1564.5" y="-490" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ9lT4VuPYU5OSlLf_5-169" value="Comparar montos desagrupados" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1574.5" y="-619" width="160" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
