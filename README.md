@@ -1,3 +1,3 @@
-### ¡Hola, soy Augusto! 👋
+### Hi, I'm Augusto! 👋
 
-Soy Python Developer y Data Engineer apasionado por la automatización y la inteligencia artificial. En mi día a día, trabajo con Python y SQL para crear soluciones escalables en el campo de la ingeniería de datos.
+I'm a Python Developer and Data Engineer passionate about automation and artificial intelligence. In my daily work, I use Python and SQL to build scalable solutions in the field of data engineering.
